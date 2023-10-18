@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h3>Создать объект, описывающий прямоугольник (хранит координаты левой верхней и правой нижней точек), и написать следующие функции для работы с таким объектом.</h3>
+        <h2>№1</h2>
+        <p>Функция принимает объект-прямоугольник и выводит информацию о нем (где какая точка расположена)</p>
+        <span>1 точка X: </span>
+        <input type="number" placeholder="2" class="i1_1x">
+        <span>1 точка Y: </span>
+        <input type="number" placeholder="5" class="i1_1y">
+        <br><br>
+        <span>2 точка X: </span>
+        <input type="number" placeholder="4" class="i1_2x">
+        <span>2 точка Y: </span>
+        <input type="number" placeholder="1" class="i1_2y">
+        <br><br>
+        <button class="b1" onclick="calc1(obj)">Вывести</button>
+        <span class="ans1"></span>
+        <hr>
+        <h2>№2</h2>
+        <p>Функция принимает объект-прямоугольник и возвращает его ширину</p>
+        <button class="b2" onclick="calc2(obj)">Вывести</button>
+        <span class="ans2"></span>
+        <hr>
+        <h2>№3</h2>
+        <p>Функция изменения ширины прямоугольника. Она принимает объект-прямоугольник и на сколько единиц изменить ширину.</p>
+        <span>Изменить ширину на </span>
+        <input type="number" placeholder="3" class="i3"> 
+        <br><br>
+        <button class="b3" onclick="calc3(obj)">Вывести</button>
+        <span class="ans3"></span>
+        <hr>
+        <h2>№4</h2>
+        <p>Функция изменения высоты прямоугольника. Она принимает объект-прямоугольник и на сколько единиц изменить высоту.</p>
+        <span>Изменить высоту на </span>
+        <input type="number" placeholder="3" class="i4"> 
+        <br><br>
+        <button class="b4" onclick="calc4(obj)">Вывести</button>
+        <span class="ans4"></span>
+        <hr>
+        <h2>№5</h2>
+        <p>Функция смещения прямоугольника по оси X. Она принимает объект-прямоугольник и на сколько единиц его сдвинуть.</p>
+        <span>Сместить на </span>
+        <input type="number" placeholder="3" class="i5"> 
+        <br><br>
+        <button class="b5" onclick="calc5(obj)">Вывести</button>
+        <span class="ans5"></span>
+        <hr>
+        <h2>№6</h2>
+        <p>Функция для проверки, находится ли точка внутри прямоугольника. Она принимает объект-прямоугольник и координаты точки</p>
+        <span>X: </span>
+        <input type="number" placeholder="3" class="i6_x"> 
+        <span>Y: </span>
+        <input type="number" placeholder="3" class="i6_y"> 
+        <br><br>
+        <button class="b6" onclick="calc6(obj)">Вывести</button>
+        <span class="ans6"></span>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
